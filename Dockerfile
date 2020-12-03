@@ -8,4 +8,3 @@ RUN apt-get update && apt install -y \
 WORKDIR /product-register
 COPY Gemfile Gemfile.lock /product-register/
 RUN bundle install
-
